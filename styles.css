@@ -1,0 +1,11 @@
+/* Define the animation */
+@keyframes exampleAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+/* Animation class */
+.animate {
+    animation: exampleAnimation 0.5s ease-in-out;
+}
